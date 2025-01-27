@@ -5,7 +5,8 @@ export default function CategorySection() {
   return (
     <div className='container my-5'>
       <h1 className="">Brows by <span className='text-primary'> Categories </span></h1>
-      <div className='CateContainer row justify-content-between align-items-center'>
+
+      <div className='CateContainer row justify-content-between align-items-center p-5'>
 
         <div className="col-lg-6 col-12 cateItems cate01 h3 pb-4">Explore Food</div>
 

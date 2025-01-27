@@ -6,7 +6,7 @@ export default function PopularDishes() {
     <div className='container mt-5'>
       <div className="row align-items-center">
         
-        <div className='col-lg-3 col-sm-6'>
+        <div className='col-lg-3 col-sml-6'>
           <h1 className="">Our Most <span className='text-primary'>Popular Dishes</span>  This Month</h1>
           <button className='btn btn-primary btn-lg rounded-pill px-4'>See all</button>
         </div>

@@ -8,8 +8,6 @@
 }
 
 .cate01 {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
     background-image: linear-gradient(to Top, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0)), url(https://img.freepik.com/premium-photo/close-up-food-served-table_1048944-29674609.jpg?uid=R71898799&ga=GA1.1.1224853354.1737838260&semt=ais_hybrid);
     background-repeat: no-repeat;
     background-size: cover;
