@@ -8,9 +8,9 @@ export default function ReviewsSection() {
       <h1>
         <span className="text-primary">Customers</span> Says
       </h1>
-      <div className="reviewSection mt-5 d-flex align-items-center">
+      <div className="container reviewSection mt-5 d-flex align-items-center">
         {/* Backward Button */}
-        <button className="" onClick={() => console.log("Backward clicked")}>
+        <button className="d-none d-md-block" onClick={() => console.log("Backward clicked")}>
           <i className="fa-solid fa-angle-left"></i>
         </button>
 
@@ -47,12 +47,12 @@ export default function ReviewsSection() {
           </div>
 
           {/* Review Card 2 */}
-          <div className="d-none d-md-block review-card mx-3 my-2">
+          <div className="review-card mx-3 my-2">
             <div className="header-content">
               <div className="img-area">
                 <img
                   alt="Customer"
-                  src="https://img.freepik.com/free-photo/portrait-handsome-young-man-with-arms-crossed-holding-white-headphone-around-his-neck_23-2148096439.jpg"
+                  src="https://images.pexels.com/photos/7562313/pexels-photo-7562313.jpeg?auto=compress&cs=tinysrgb&h=204&fit=crop&w=228&dpr=1"
                 />
               </div>
               <div className="info">
@@ -77,12 +77,12 @@ export default function ReviewsSection() {
           </div>
 
           {/* Review Card 3 */}
-          <div className="d-none d-md-block review-card mx-3 my-2">
+          <div className="review-card mx-3 my-2">
             <div className="header-content">
               <div className="img-area">
                 <img
                   alt="Customer"
-                  src="https://img.freepik.com/free-photo/portrait-handsome-young-man-with-arms-crossed-holding-white-headphone-around-his-neck_23-2148096439.jpg"
+                  src="https://images.pexels.com/photos/19424722/pexels-photo-19424722/free-photo-of-black-man-wearing-a-jacket-and-turtleneck-fashion.jpeg?auto=compress&cs=tinysrgb&w=600"
                 />
               </div>
               <div className="info">
@@ -110,7 +110,7 @@ export default function ReviewsSection() {
         </div>
 
         {/* Forward Button */}
-        <button className="" onClick={() => console.log("Forward clicked")}>
+        <button className="d-none d-md-block " onClick={() => console.log("Forward clicked")}>
           <i className="fa-solid fa-angle-right "></i>
         </button>
       </div>
