@@ -15,7 +15,7 @@ export default function ReviewsSection() {
         </button>
 
         {/* All Cards */}
-        <div className="d-flex justify-content-center">
+        <div className="d-flex flex-wrap justify-content-center">
           {/* Review Card 1 */}
           <div className="review-card mx-3 my-2">
             <div className="header-content">
