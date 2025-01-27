@@ -105,8 +105,6 @@ export default function ReviewsSection() {
               </div>
             </div>
           </div>
-
-
         </div>
 
         {/* Forward Button */}
