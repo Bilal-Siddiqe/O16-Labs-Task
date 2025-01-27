@@ -1,0 +1,22 @@
+.dishesCard {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dihsesImg {
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-body {
+    margin-top: -5px;
+}
+.dishReview {
+    font-size: "0.6rem";
+    max-width: "80px";
+    white-space: "nowrap";
+    overflow: "hidden";
+    text-overflow: "ellipsis";
+    letter-spacing: "0";
+    line-height: "1";
+}

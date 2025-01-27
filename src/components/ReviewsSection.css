@@ -1,0 +1,113 @@
+.reviewSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    gap: 10px;
+    padding: 0 20px; /* Add padding to contain buttons inside the section */
+}
+
+.review-card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 270px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    flex-shrink: 0; /* Prevent cards from shrinking */
+}
+
+.img-area {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-left: -5px;
+    margin-top: 5px;
+}
+
+.info h4 {
+    margin: 5px 0px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.info p {
+    margin: 0px 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+
+.single-review p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #333;
+    font-family: 'Amiri', serif;
+}
+
+.review-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.rating {
+    display: flex;
+}
+
+.rating span {
+    color: #000;
+    font-size: 18px;
+}
+
+.rating span.active {
+    color: #fbc02d;
+}
+
+/* Button Styling */
+.reviewSection button {
+    background-color: #007bff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.reviewSection button:hover {
+    background-color: #0056b3;
+}
+
+/* Position Buttons Relative to the Section */
+.reviewSection button:first-child {
+    order: -1; /* Ensure backward button appears before cards */
+}
+
+.reviewSection button:last-child {
+    order: 2; /* Ensure forward button appears after cards */
+}

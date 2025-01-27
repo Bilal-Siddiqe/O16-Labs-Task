@@ -1,0 +1,45 @@
+.cateItems {
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.cate01 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-image: linear-gradient(to Top, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0)), url(https://img.freepik.com/premium-photo/close-up-food-served-table_1048944-29674609.jpg?uid=R71898799&ga=GA1.1.1224853354.1737838260&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.cate02 {
+    background-image: linear-gradient(to Top, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0)), url(https://img.freepik.com/free-photo/handsome-young-cook-uniform-smell-salad_171337-5348.jpg?uid=R71898799&ga=GA1.1.1224853354.1737838260&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.cate03 {
+    background-image: linear-gradient(to Top, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0)), url(https://img.freepik.com/free-photo/delicious-dessert-table_23-2151901959.jpg?uid=R71898799&ga=GA1.1.1224853354.1737838260&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.cate04 {
+    background-image: linear-gradient(to Top, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0)), url(https://img.freepik.com/free-photo/massaman-curry-frying-pan-with-spices-cement-floor_1150-20781.jpg?uid=R71898799&ga=GA1.1.1224853354.1737838260&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.cate05 {
+    background-image: linear-gradient(to Top, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0)), url(https://img.freepik.com/free-photo/egg-noodle-with-red-roasted-pork-wonton-table_1150-13422.jpg?uid=R71898799&ga=GA1.1.1224853354.1737838260&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}

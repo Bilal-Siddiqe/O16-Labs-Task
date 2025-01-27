@@ -1,0 +1,13 @@
+.nav-link {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: bold;
+    color: white;
+}
+
+.line {
+    border: 0;
+    border-top: 1px solid white;
+    width: 30%;
+    /* You can adjust this to make the lines longer or shorter */
+}
